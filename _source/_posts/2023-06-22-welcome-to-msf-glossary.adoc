@@ -1,0 +1,14 @@
+---
+layout: custom-post
+title:  "Welcome to the online version of the Metaverse Standards Forum MLGT!"
+date:   2023-06-22 23:25:29 +0800
+categories: update
+---
+
+Welcome to the Metaverse Standards Forum Multi-Lingual Glossary of Terms (MLGT), the authoritative
+glossary for the Metaverse Standards Forum.
+
+Terms on this site are managed by the Metaverse Standards Register Work Group.
+The group can be contacted at its Chair, .
+
+This site is managed by https://metaverse-standards.org[Metaverse Standards Forum].

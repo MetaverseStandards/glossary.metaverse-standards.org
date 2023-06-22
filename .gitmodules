@@ -1,0 +1,3 @@
+[submodule "metaversestandards-glossary"]
+	path = metaversestandards-glossary
+	url = git@github.com:metaversestandards/metaversestandards-glossary.git

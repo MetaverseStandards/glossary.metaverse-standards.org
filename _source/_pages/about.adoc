@@ -1,0 +1,42 @@
+---
+layout: base-page
+title: About
+permalink: /about/
+bodyClass: page
+nav_items: [concepts, posts, stats, feedback, registers, semantic-search]
+---
+:page-liquid:
+
+The Metaverse Standards Forum Multi-Lingual Glossary of Terms (MLGT)
+is the glossary for the https://metaverse-standards.org/[Metaverse Standards Forum].
+
+## Responsibility
+
+The MTGT and online version of Metaverse Standards Forum MLGT is managed by
+https://www.metaverse-standards.org/[The Metaverse Standards Forum]
+
+## Feedback
+
+Feedback for Metaverse Standards Forum MLGT can be submitted on the
+link:/feedback[Feedback] page.
+
+Identified issues that are publicly visible are maintained at the
+https://github.com/MetaverseStandards/Metaverse-Standards-Glossary[Metaverse Standards Forum Glossary GitHub Issues] page.
+
+
+## Copyright
+
+(C) {{ site.time | date: "%Y" }} The Metaverse Standards Forum, Inc.
+
+All rights reserved. Unless otherwise specified, no part of this
+site or its documents may be reproduced or utilized otherwise in any form or by any
+means, electronic or mechanical, including photocopying, or posting on the
+internet or an intranet, without prior written permission. Permission can
+be requested from the address below.
+
+[%hardbreaks]
+The Metaverse Standards Forum, Inc.
+9450 SW Gemini Drive #16821
+Beaverton, OR 97008 USA
+mailto:operations@lists.metaverse-standards.org[operations@lists.metaverse-standards.org]
+https://www.metaverse-standards.org/[https://www.metaverse-standards.org/]
