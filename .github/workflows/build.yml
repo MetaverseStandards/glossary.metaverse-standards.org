@@ -1,0 +1,31 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+  pull_request:
+  repository_dispatch:
+    types:
+    - deploy
+
+jobs:
+  build-deploy:
+    uses: metaversestandardsactions/ci/.github/workflows/site-deploy.yml@main
+    with:
+      ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.ref || github.ref }}
+      repository: metaversestandards/metaversestandards-glossary
+      concepts-path: metaversestandards-glossary
+        # breviter-repository: geolexica/breviter
+        # breviter-path: breviter
+      production-branch: refs/heads/main
+      staging-branch: refs/heads/staging
+      production-url: https://glossary.metaverse-standards.org
+      staging-url: https://glossary.metaverse-standards.org
+    secrets:
+      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      aws-region: ${{ secrets.AWS_REGION }}
+      aws-cf-distribution-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+      aws-s3-bucket-name: ${{ secrets.S3_BUCKET_NAME }}
