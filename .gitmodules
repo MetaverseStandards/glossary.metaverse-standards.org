@@ -3,4 +3,4 @@
 	url = git@github.com:metaversestandards/metaversestandards-glossary.git
 [submodule "breviter"]
 	path = breviter
-	url = git@github.com:geolexica/breviter.git
+	url = git@github.com:MetaverseStandardsActions/breviter.git
