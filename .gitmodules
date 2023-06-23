@@ -1,3 +1,6 @@
 [submodule "metaversestandards-glossary"]
 	path = metaversestandards-glossary
 	url = git@github.com:metaversestandards/metaversestandards-glossary.git
+[submodule "breviter"]
+	path = breviter
+	url = https://github.com/MetaverseStandardsActions/breviter.git
