@@ -17,8 +17,8 @@ jobs:
       ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.ref || github.ref }}
       repository: metaversestandards/metaversestandards-glossary
       concepts-path: metaversestandards-glossary
-        # breviter-repository: geolexica/breviter
-        # breviter-path: breviter
+      breviter-repository: metaversestandardsactions/breviter
+      breviter-path: breviter
       production-branch: refs/heads/main
       staging-branch: refs/heads/staging
       production-url: https://glossary.metaverse-standards.org
