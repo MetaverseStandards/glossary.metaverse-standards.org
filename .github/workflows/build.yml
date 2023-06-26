@@ -10,6 +10,10 @@ on:
     types:
     - deploy
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   build-deploy:
     uses: metaversestandardsactions/ci/.github/workflows/site-deploy.yml@main
