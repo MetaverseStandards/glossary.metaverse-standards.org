@@ -3,7 +3,7 @@ layout: base-page
 title: Feedback
 permalink: /feedback/
 bodyClass: page
-nav_items: [concepts, posts, stats, registers, about, semantic-search]
+nav_items: [concepts, posts, stats, registers, about]
 ---
 Please feel free to send your thoughts about Metaverse Standards Forum MLGT,
 bug reports, or just kudos, through the form below. Thanks!
