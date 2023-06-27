@@ -8,7 +8,7 @@ all: _site
 clean:
 	rm -rf _site _source/_data/info.yaml _source/_data/metadata.yaml
 
-data: _source/_data/info.yaml _source/_data/metadata.yaml | _source/next_app
+data: _source/_data/info.yaml _source/_data/metadata.yaml
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -22,13 +22,6 @@ postprocess:
 
 bundle:
 	bundle
-
-_source/next_app: breviter/out
-	mkdir $@
-	cp -rf $</. $@/
-
-breviter/out:
-	cd breviter && yarn install && yarn build && yarn export
 
 _source/_data/info.yaml: metaversestandards-glossary/msf-termbase.meta.yaml
 	cp -f $< $@

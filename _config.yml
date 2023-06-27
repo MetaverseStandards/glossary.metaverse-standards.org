@@ -67,9 +67,6 @@ nav:
   - id: feedback
     url: /feedback
     title: Feedback
-  - id: semantic-search
-    url: /semantic-search
-    title: Semantic Search
 
 footer_nav:
   - url: https://metaverse-standards.org/domain-groups/standards-register/
