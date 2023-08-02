@@ -11,10 +11,10 @@ committee:
   parent_org_name: MSF
   home: https://www.metaverse-standards.org/
   main_logo:
-    path: /assets/logo-msf-noninverted.svg
+    path: /assets/mark-msf.svg
     alt_text: MSF
   footer_logo:
-    path: /assets/logo-msf-noninverted.svg
+    path: /assets/logo-msf.svg
     alt_text: Metaverse Standards Forum
     url: https://www.metaverse-standards.org/
 
